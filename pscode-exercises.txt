@@ -1,0 +1,46 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+Print "Is this integer even or odd? Input number: ", new line
+Read input and create new variable from it called "testNumber". This will likely occur in the same line of code as the previous step.
+// Must specify integer because non-integers cannot be even or odd.
+Find remainder of testNumber / 2 using modulus operator. This result is "x"
+if x = 0 print "Number is even"
+else print "Number is odd"
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+Print "Input 5 numbers one at a time"
+// Did not specify whether these should be integers or floats.
+// Depending on language or need should use floats because we are taking the average.
+Read first number = a then new line
+Read second number = b then new line
+Read third number = c then new line
+Read fourth number = d then new line
+Read fifth number = e then new line
+numAverage = (a+b+c+d+e) / 5
+Print "The average of the data is: " then print numAverage, new line
+// Some languages like java or python have functions such as sort or min/max built in. These would be used if applicable.
+// Otherwise more work may need to be done, but this is pseudocode.
+Find minimum of data and set as variable Min
+Find maximum of data and set as variable Max
+Print "The minimum of the data is: " and print var Min, new line. Print "The maximum of the data is: " and print var Max.
+
+-- END --
